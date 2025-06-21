@@ -1,9 +1,9 @@
 class Suggest < Formula
   desc "CLI tool that suggests shell commands using AI APIs"
   homepage "https://github.com/sbsto/suggest"
-  url "https://github.com/sbsto/suggest/releases/download/v1.0.7/suggest-darwin-universal"
-  version "1.0.7"
-  sha256 "60e3b6edb1232d98055c122f783bd7b97829277505f1c6e0a9d6f1109247e38a"
+  url "https://github.com/sbsto/suggest/releases/download/v1.0.8/suggest-darwin-universal"
+  version "1.0.8"
+  sha256 "3739817ff167833187f353f80f9ae88ffe970b5aa037e08e80b64ac9e91ff69d"
 
   def install
     bin.install "suggest-darwin-universal" => "suggest"
